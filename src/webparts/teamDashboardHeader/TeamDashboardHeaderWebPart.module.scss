@@ -1,0 +1,38 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.teamDashboardHeader {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .headerImage{
+    height: 40px;
+  }
+
+  .h2{
+    color: #57b372;
+    display: inline;
+    font-family: "TrefoilSans Bold","Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  }
+
+  .h2 a:link{
+    color: #57b372 !important; 
+    text-decoration: none;
+    vertical-align:middle;
+  }
+
+  .h2 a:hover{
+    color: #57b372;
+    text-decoration: underline;
+  }
+
+  #TeamDashboardHeader {
+    margin-left: 32px;
+  }
+}

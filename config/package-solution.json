@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "team-dashboard-header-client-side-solution",
+    "id": "0aaac33c-9653-4731-865b-af72629275e9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/team-dashboard-header.sppkg"
+  }
+}
